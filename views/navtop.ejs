@@ -1,0 +1,17 @@
+<nav class="navbar navbar-dark bg-dark">
+    <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
+        <a class="navbar-brand" href="#">
+            <%= title %>
+        </a>
+        <% if( page !="login" ) { %>
+            <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <i data-feather="plus"></i>
+            </button>
+            <button type="button" class="btn btn-outline-secondary m-1" onclick="location.href='/logout'">
+                LOGOUT
+            </button>
+            <% } %>
+
+    </div>
+</nav>
+<script></script>
